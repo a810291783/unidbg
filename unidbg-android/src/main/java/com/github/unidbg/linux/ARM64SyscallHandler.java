@@ -1232,6 +1232,7 @@ public class ARM64SyscallHandler extends AndroidSyscallHandler {
         switch (clk_id) {
             case CLOCK_REALTIME:
             case CLOCK_MONOTONIC:
+            case 3:
             case CLOCK_MONOTONIC_RAW:
             case CLOCK_MONOTONIC_COARSE:
             case CLOCK_BOOTTIME:
